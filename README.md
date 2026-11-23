@@ -1,8 +1,12 @@
 # Radius Raid
 
+[**수정본 게임 바로 플레이**](https://marbas04.github.io/radius-raid/)
+
+> 오픈소스SW 수업 개인 과제용 수정본입니다. 원작의 공식 서비스가 아닙니다.
+
 Radius Raid is a space themed shoot 'em up where you must blast away unrelenting enemies before they destroy you. The game features 13 enemy types, 5 powerups, parallax backgrounds, retro sound effects, and locally stored stats.
 
-[**Play Radius Raid**](https://jackrugile.com/radius-raid/)
+[**원본 게임 플레이 — 비교용**](https://jackrugile.com/radius-raid/)
 
 This was originally an entry for [js13kGames](http://js13kgames.com) 2013, but has since received a few updates and bug fixes. It won [1st place](https://2013.js13kgames.com/#winners)!
 
