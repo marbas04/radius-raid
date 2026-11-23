@@ -23,8 +23,8 @@ $.Hero = function () {
   this.weapon = {
     fireRateTickMax: 5,
     fireRateTick: 5,
-    spread: 0.3,
-    count: 1,
+    spread: Math.PI / 3,
+    count: 5,
     bullet: {
       size: 15,
       lineWidth: 2,
