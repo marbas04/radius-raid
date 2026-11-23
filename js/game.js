@@ -1023,15 +1023,14 @@ $.updatePowerupTimers = function () {
     $.hero.weapon.bullet.speed = 10;
   }
 
-  // TRIPLE SHOT
-  if ($.powerupTimers[3] > 0) {
-    $.hero.weapon.count = 3;
-    $.powerupTimers[3] -= $.dt;
-    $.powerupTimers[3] = Math.max($.powerupTimers[3], 0);
-  } else {
-    $.hero.weapon.count = 1;
-  }
-
+  // MULTI SHOT
+if ($.powerupTimers[3] > 0) {
+  $.hero.weapon.count = 7;
+  $.powerupTimers[3] -= $.dt;
+  $.powerupTimers[3] = Math.max($.powerupTimers[3], 0);
+} else {
+  $.hero.weapon.count = 5;
+}
   // PIERCE SHOT
   if ($.powerupTimers[4] > 0) {
     $.hero.weapon.bullet.piercing = 1;
