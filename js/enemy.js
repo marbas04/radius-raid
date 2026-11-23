@@ -132,7 +132,7 @@ $.Enemy.prototype.receiveDamage = function (i, val) {
         new $.TextPop({
           x: this.x,
           y: this.y,
-          value: this.value,
+          value: this.value * 1000,
           hue: this.hue,
           saturation: this.saturation,
           lightness: 60,
@@ -142,7 +142,7 @@ $.Enemy.prototype.receiveDamage = function (i, val) {
     }
     this.death();
     $.spawnPowerup(this.x, this.y);
-    $.score += this.value;
+    $.score += this.value * 1000;
     $.level.kills++;
     $.kills++;
     $.enemies.splice(i, 1);
