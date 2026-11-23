@@ -28,7 +28,7 @@ $.Hero = function () {
     bullet: {
       size: 15,
       lineWidth: 2,
-      damage: 1,
+      damage: 100,
       speed: 10,
       piercing: 0,
       color: {
